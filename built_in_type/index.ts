@@ -20,4 +20,5 @@ console.log(full.toLowerCase());
 function myName() : void {
     console.log("I am Akbar");
 }
+
 myName()
