@@ -1,18 +1,18 @@
-// let user = { userName: "Akbar Hossain", age: 28 }
-// console.log(user);
-// let players: object[]
-// players = [{ name: "Montu" }, { name: "Takla" }]
-// console.log(players);
-var peoples;
-peoples = [];
+var users;
+users = [];
 var user1;
-boy = { boyName: "Akbar hossain", age: 20 };
-peoples.push(boy);
-// console.log(boys);
+user1 = { userName: "xyz", userId: 101 };
+users.push(user1);
 var user2;
-girl = { girlName: "Xyz", age: 10 };
-peoples.push(girl);
-// console.log(users);
-for (var key in peoples) {
-    console.log(peoples[key]["boyName"], peoples[key]["age"]);
+user2 = { userName: "pqr", userId: 102 };
+users.push(user2);
+var user3;
+user3 = { userName: "mno", userId: 103 };
+users.push(user3);
+var getRequest;
+getRequest = "DELETE";
+// console.log(getRequest);
+function requestHandler(requestType) {
+    console.log(requestType);
 }
+requestHandler("POST");
